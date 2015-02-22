@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Checks if a result has been computed and if the 'entry' is nonempty
-## returns it. If empty, computes it and adds to matrix
+## returns it. If empty, computes it and adds to matrix.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
