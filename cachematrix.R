@@ -27,7 +27,7 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
     m <- x$getsolve()
     if (!is.null(m)) {
-        message("Reticulating cached invertible splines")
+        message("Reticulating cached invertible splines.")
         return(m)
     }
     data <- x$get()
